@@ -35,5 +35,7 @@ class Melon(object):
 class Squash(Melon):
     
     def prep(self):
+        '''Preps and paints squash green'''
+        
         super().prep()
         robots.painterbot.paint(self)
